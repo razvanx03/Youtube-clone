@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Youtube Copy</title>
+    <link href ="../styles/header.css" rel = "stylesheet">
+    <link href ="../styles/sidebar.css" rel = "stylesheet">
+    <link href ="../styles/general.css" rel = "stylesheet">
+    <link href ="../styles/center.css" rel = "stylesheet">
+    <!-- Roboto font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class = "header">
+      <div class = "left">
+        <img src ="../header-icons/hamburger-menu.svg" class = "hamburger-logo">
+        <a href = "https://www.youtube.com/" target="_blank"> <img src ="../header-icons/youtube-logo.svg" class = "youtube-logo"> </a>
+      </div>
+      <div class = "middle">
+        <input type="text" placeholder="Search" class = "search-bar">
+        <button class = "enter-search">
+          <img src="../header-icons/search.svg" class = "icon">
+          <div class = "tooltip">Search</div>
+        </button>
+        <button class = "voice-search">
+          <img src="../header-icons/voice-search-icon.svg" class = "icon">
+          <div class = "tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class = "right">
+        <div class ="icon-container">
+          <img src="../header-icons/upload.svg" class = "icon">
+          <div class = "tooltip">Create</div>
+        </div>
+        <div class ="icon-container">
+          <img src="../header-icons/youtube-apps.svg" class = "icon">
+          <div class = "tooltip">Youtube apps</div>
+        </div>
+        <div class ="icon-container">
+          <img src="../header-icons/notifications.svg" class = "icon">
+          <div class = "notifications-count">3</div>
+          <div class = "tooltip">Notifications</div>
+        </div>
+        <div class ="icon-container">
+          <img src="../header-icons/youtube-avatar.png" class = "avatar">
+        </div>
+      </div>
+    </div>
+    <div class = "sidebar">
+      <div>
+        <a href = "../YouTube clone.html">
+          <div class = "side-box">
+            <img src = "../sidebar-icons/home.svg" class = "icon">
+            <div class = "icon-text">Home</div>
+          </div>
+        </a>
+        <a href= "explore.html">
+          <div class = "side-box">
+            <img src = "../sidebar-icons/explore.svg" class = "icon">
+            <div class = "icon-text">Explore</div>
+          </div>
+        </a>
+        <a href= "subscriptions.html">
+          <div class = "side-box">
+            <img src = "../sidebar-icons/subscriptions.svg" class = "icon">
+            <div class = "icon-text">Subscriptions</div>
+          </div>
+        </a>
+        <a href= "originals.html">
+          <div class = "side-box">
+            <img src = "../sidebar-icons/originals.svg" class = "icon">
+            <div class = "icon-text">Originals</div>
+          </div>
+        </a>
+        <a href = "youtube-music.html" target="_blank">
+          <div class = "side-box">
+            <img src = "../sidebar-icons/youtube-music.svg" class = "icon">
+            <div class = "icon-text">YouTube Music</div>
+          </div>
+        </a>
+        <a href = "library.html">
+          <div class = "side-box">
+            <img src = "../sidebar-icons/library.svg" class = "icon">
+            <div class = "icon-text">Library</div>
+          </div>
+        </a>
+      <div>
+        <div class = "light">
+          <div class = "light-block">
+            <input type="radio" id="Lightmode" name="mode">
+            <label id = "light-text" for="html">Lightmode</label>
+          </div>
+          <div class = "light-block">
+            <input type="radio" id="Nightmode" name="mode">
+            <label id = "night-text" for="css">Nightmode</label>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+    <div class = "library-center-box">
+      <div class = "library-channel-box">
+        <div class = "library-channel-box-left">
+          <img src = "../header-icons/youtube-avatar.png" class = "library-channel-box-left-image">
+        </div>
+        <div class = "channel-box-right">
+          <div class = "library-title">
+            Channel Name
+          </div>
+          <div class = "library-info">
+            @channelname &#8226; <span style = "cursor: pointer">View channel</span>
+          </div>
+          <div>
+            <button class = "library-buttons">Switch account</button>
+            <button class = "library-buttons">Google account</button>
+          </div>
+        </div>
+      </div>
+      <div class = "library-section">
+        <div class = "library-categories">
+          <div class = "categories-left">History</div>
+          <div class = "categories-right"><span style = "cursor: pointer">See all</span></div>
+        </div>
+        <div class = "library-info-text">Recent videos you watched will appear here.</div>
+        <hr style = "margin-top: 30px; margin-bottom: 30px">
+
+        <div class = "library-categories">
+          <div class = "categories-left">Watch later<span class = "library-counter"> &#8226; 0</span></div>
+          <div class = "categories-right"><span style = "cursor: pointer">See all</span></div>
+        </div>
+        <div class = "library-info-text">Videos you added in "Watch Later" playlist will appear here.</div>
+        <hr style = "margin-top: 30px; margin-bottom: 30px">
+
+        <div class = "library-categories">
+          <div class = "categories-left">Playlists<span class = "library-counter"> &#8226; Recently added &darr;</span></div>
+          <div class = "categories-right"></div>
+        </div>
+        <div class = "library-info-text">Playlists you create or save will show up here.</div>
+        <hr style = "margin-top: 30px; margin-bottom: 30px">
+
+        <div class = "library-categories">
+          <div class = "categories-left">Liked videos<span class = "library-counter"> &#8226; 0</span></div>
+          <div class = "categories-right"><span style = "cursor: pointer">See all</span></div>
+        </div>
+        <div class = "library-info-text">Videos you liked will appear here.</div>
+        <hr style = "margin-top: 30px; margin-bottom: 30px">
+
+        <div class = "library-categories">
+          <div class = "categories-left">Your clips<span class = "library-counter"> &#8226; 0</span></div>
+          <div class = "categories-right"><span style = "cursor: pointer">See all</span></div>
+        </div>
+        <div class = "library-info-text">Clip and share your favorite moments. Your list shows up right here.</div>
+        <hr style = "margin-top: 30px; margin-bottom: 30px">
+      </div>
+    </div>
+  </body>
+  <script src = "../javascript/page-light.js"></script>
+</html>

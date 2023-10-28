@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Youtube Copy</title>
+    <link href ="../styles/header.css" rel = "stylesheet">
+    <link href ="../styles/sidebar.css" rel = "stylesheet">
+    <link href ="../styles/general.css" rel = "stylesheet">
+    <link href ="../styles/center.css" rel = "stylesheet">
+    <!-- Roboto font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class = "header">
+      <div class = "left">
+        <img src ="../header-icons/hamburger-menu.svg" class = "hamburger-logo">
+        <a href = "https://www.youtube.com/" target="_blank"> <img src ="../header-icons/youtube-logo.svg" class = "youtube-logo"> </a>
+      </div>
+      <div class = "middle">
+        <input type="text" placeholder="Search" class = "search-bar">
+        <button class = "enter-search">
+          <img src="../header-icons/search.svg" class = "icon">
+          <div class = "tooltip">Search</div>
+        </button>
+        <button class = "voice-search">
+          <img src="../header-icons/voice-search-icon.svg" class = "icon">
+          <div class = "tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class = "right">
+        <div class ="icon-container">
+          <img src="../header-icons/upload.svg" class = "icon">
+          <div class = "tooltip">Create</div>
+        </div>
+        <div class ="icon-container">
+          <img src="../header-icons/youtube-apps.svg" class = "icon">
+          <div class = "tooltip">Youtube apps</div>
+        </div>
+        <div class ="icon-container">
+          <img src="../header-icons/notifications.svg" class = "icon">
+          <div class = "notifications-count">3</div>
+          <div class = "tooltip">Notifications</div>
+        </div>
+        <div class ="icon-container">
+          <img src="../header-icons/youtube-avatar.png" class = "avatar">
+        </div>
+      </div>
+    </div>
+    <div class = "sidebar">
+      <div>
+        <a href = "../YouTube clone.html">
+          <div class = "side-box">
+            <img src = "../sidebar-icons/home.svg" class = "icon">
+            <div class = "icon-text">Home</div>
+          </div>
+        </a>
+        <a href= "explore.html">
+          <div class = "side-box">
+            <img src = "../sidebar-icons/explore.svg" class = "icon">
+            <div class = "icon-text">Explore</div>
+          </div>
+        </a>
+        <a href= "subscriptions.html">
+          <div class = "side-box">
+            <img src = "../sidebar-icons/subscriptions.svg" class = "icon">
+            <div class = "icon-text">Subscriptions</div>
+          </div>
+        </a>
+        <a href= "originals.html">
+          <div class = "side-box">
+            <img src = "../sidebar-icons/originals.svg" class = "icon">
+            <div class = "icon-text">Originals</div>
+          </div>
+        </a>
+        <a href = "youtube-music.html" target="_blank">
+          <div class = "side-box">
+            <img src = "../sidebar-icons/youtube-music.svg" class = "icon">
+            <div class = "icon-text">YouTube Music</div>
+          </div>
+        </a>
+        <a href = "library.html">
+          <div class = "side-box">
+            <img src = "../sidebar-icons/library.svg" class = "icon">
+            <div class = "icon-text">Library</div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class = "originals-center-box">
+      <div class = "originals-thumbnail">
+        <a href = "https://www.youtube.com/channel/UCqVDpXKLmKeBU_yyt_QkItQ" target="_blank"><img src="../thumbnails/originals-thumbnail.jpg" alt="Originals Thumbnail" class ="thumbnail"></a>
+      </div>
+      <div class = "originals-channel-box">
+        <div class = "channel-box-left">
+          <a href = "https://www.youtube.com/channel/UCqVDpXKLmKeBU_yyt_QkItQ" target="_blank"><img src = "../thumbnails/originals-channel-avatar.jpg" class = "channel-box-left"></a>
+        </div>
+        <div class = "channel-box-right">
+          <div class = "originals-title">
+            YouTube Originals
+          </div>
+          <div class = "originals-info">
+            @youtubeoriginals &#8226; 6.75M subscribers &#8226; 477 videos
+          </div>
+          <div class = "originals-info">
+            Discover original series and movie from today's hottest talent.
+          </div>
+          <button class = "originals-subscribe">Subscribe</button>
+        </div>
+      </div>
+      <div class = "originals-section">
+        <div class = "originals-section-button originals-home">Home</div>
+        |
+        <div class = "originals-section-button">Videos</div>
+        |
+        <div class = "originals-section-button">Shorts</div>
+        |
+        <div class = "originals-section-button">Live</div>
+        |
+        <div class = "originals-section-button">Podcasts</div>
+        |
+        <div class = "originals-section-button">Playlists</div>
+        |
+        <div class = "originals-section-button">Community</div>
+        |
+        <div class = "originals-section-button">Channels</div>
+        |
+        <div class = "originals-section-button">About</div>
+      </div>
+      <div class = "originals-clips">
+        <hr>
+        <div class = "originals-premium-buy">🔒To unlock this content you need to buy YouTube Premium🔒
+          <button class = "originals-premium-buy-button" onclick = "openPremium()">Buy now</button></div>
+      </div>
+    </div>
+  </body>
+  <script src = "../javascript/page-light.js"></script>
+</html>

@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Youtube Copy</title>
+    <link href ="../styles/header.css" rel = "stylesheet">
+    <link href ="../styles/sidebar.css" rel = "stylesheet">
+    <link href ="../styles/general.css" rel = "stylesheet">
+    <link href ="../styles/center.css" rel = "stylesheet">
+    <!-- Roboto font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class = "header">
+      <div class = "left">
+        <img src ="../header-icons/hamburger-menu.svg" class = "hamburger-logo">
+        <a href = "https://www.youtube.com/" target="_blank"> <img src ="../header-icons/youtube-logo.svg" class = "youtube-logo"> </a>
+      </div>
+      <div class = "middle">
+        <input type="text" placeholder="Search" class = "search-bar">
+        <button class = "enter-search">
+          <img src="../header-icons/search.svg" class = "icon">
+          <div class = "tooltip">Search</div>
+        </button>
+        <button class = "voice-search">
+          <img src="../header-icons/voice-search-icon.svg" class = "icon">
+          <div class = "tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class = "right">
+        <div class ="icon-container">
+          <img src="../header-icons/upload.svg" class = "icon">
+          <div class = "tooltip">Create</div>
+        </div>
+        <div class ="icon-container">
+          <img src="../header-icons/youtube-apps.svg" class = "icon">
+          <div class = "tooltip">Youtube apps</div>
+        </div>
+        <div class ="icon-container">
+          <img src="../header-icons/notifications.svg" class = "icon">
+          <div class = "notifications-count">3</div>
+          <div class = "tooltip">Notifications</div>
+        </div>
+        <div class ="icon-container">
+          <img src="../header-icons/youtube-avatar.png" class = "avatar">
+        </div>
+      </div>
+    </div>
+    <div class = "sidebar">
+      <div>
+        <a href = "../YouTube clone.html">
+          <div class = "side-box">
+            <img src = "../sidebar-icons/home.svg" class = "icon">
+            <div class = "icon-text">Home</div>
+          </div>
+        </a>
+        <a href= "explore.html">
+          <div class = "side-box">
+            <img src = "../sidebar-icons/explore.svg" class = "icon">
+            <div class = "icon-text">Explore</div>
+          </div>
+        </a>
+        <a href= "subscriptions.html">
+          <div class = "side-box">
+            <img src = "../sidebar-icons/subscriptions.svg" class = "icon">
+            <div class = "icon-text">Subscriptions</div>
+          </div>
+        </a>
+        <a href= "originals.html">
+          <div class = "side-box">
+            <img src = "../sidebar-icons/originals.svg" class = "icon">
+            <div class = "icon-text">Originals</div>
+          </div>
+        </a>
+        <a href = "youtube-music.html" target="_blank">
+          <div class = "side-box">
+            <img src = "../sidebar-icons/youtube-music.svg" class = "icon">
+            <div class = "icon-text">YouTube Music</div>
+          </div>
+        </a>
+        <a href = "library.html">
+          <div class = "side-box">
+            <img src = "../sidebar-icons/library.svg" class = "icon">
+            <div class = "icon-text">Library</div>
+          </div>
+        </a>
+      <div>
+        <div class = "light">
+          <div class = "light-block">
+            <input type="radio" id="Lightmode" name="mode">
+            <label id = "light-text" for="html">Lightmode</label>
+          </div>
+          <div class = "light-block">
+            <input type="radio" id="Nightmode" name="mode">
+            <label id = "night-text" for="css">Nightmode</label>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+    <div class = "explorer-whitebar">
+      <div class = "whitebar-top">   
+        Trending
+      </div>
+      <div class = "whitebar-bottom">
+        <div class = "explorer-selector global">All</div>
+        <div class = "explorer-selector">Music</div>
+        <div class = "explorer-selector">Gaming</div>
+        <div class = "explorer-selector">Movies</div>
+        <div class = "explorer-selector">Series</div>
+       </div>
+    </div>
+    <div class = "explorer-center-box">
+      <div class = "explorer-video-box">
+        <div class = "explorer-video-thumbnail">
+          <a href="https://www.youtube.com/watch?v=vaIgyRoUkQI&ab_channel=MrBeast" target="_blank"><img src="../thumbnails/4.jpg" class = "thumbnail explorer-thumbnail"></a>
+          <div class = "video-timer explorer-video-timer">13:03</div>
+        </div> 
+        <div class = "explorer-video-content">
+          <div class = "video-title explorer-video-title">
+            I Didn't Eat Food For 30 Days
+          </div>
+          <div class = "video-channel explorer-video-channel">
+            <a href="https://www.youtube.com/@MrBeast" target="_blank">MrBeast</a>
+          </div>
+          <div class = "views-time">
+            86M views &#x2022; 1 year ago
+          </div>
+        </div>
+      </div>
+      <div class = "explorer-video-box">
+        <div class = "explorer-video-thumbnail">
+          <a href="https://www.youtube.com/watch?v=Qp4DOepxsB4&ab_channel=ReShow" target="_blank"><img src="../thumbnails/8.jpg" class = "thumbnail explorer-thumbnail"></a>
+          <div class = "video-timer explorer-video-timer">2:53</div>
+        </div> 
+        <div class = "explorer-video-content">
+          <div class = "video-title explorer-video-title">
+            Better Call Saul - Cartel Meeting With Don Eladio [English Subtitles]
+          </div>
+          <div class = "video-channel explorer-video-channel">
+            <a href="https://www.youtube.com/@reshowmedia" target="_blank">ReShow</a>
+          </div>
+          <div class = "views-time">
+            4.4M views &#x2022; 3 years ago
+          </div>
+        </div>
+      </div>
+      <div class = "explorer-video-box">
+        <div class = "explorer-video-thumbnail">
+          <a href="https://www.youtube.com/watch?v=h1HFv9xXuOo&ab_channel=VehicleVirgins" target="_blank"><img src="../thumbnails/6.jpg"  class = "thumbnail explorer-thumbnail"></a>
+          <div class = "video-timer explorer-video-timer">10:29</div>
+        </div> 
+        <div class = "explorer-video-content">
+          <div class = "video-title explorer-video-title">
+            250 MPH Mclaren Speedtail POV Drive Review
+          </div>
+          <div class = "video-channel explorer-video-channel">
+            <a href="https://www.youtube.com/@VehicleVirgins" target="_blank">Vehicle Virgins</a>
+          </div>
+          <div class = "views-time">
+            125K views &#x2022; 2 weeks ago
+          </div>
+        </div>
+      </div>
+      <div class = "explorer-video-box">
+        <div class = "explorer-video-thumbnail">
+          <a href="https://www.youtube.com/watch?v=hTfbnC8vS_Y&ab_channel=carwow" target="_blank"><img src="../thumbnails/15.jpg" class = "thumbnail explorer-thumbnail"></a>
+          <div class = "video-timer explorer-video-timer">24:31</div>
+        </div> 
+        <div class = "explorer-video-content">
+          <div class = "video-title explorer-video-title">
+            BMW M5 Generations DRAG RACE
+          </div>
+          <div class = "video-channel explorer-video-channel">
+            <a href="https://www.youtube.com/@carwow" target="_blank">carwow</a>
+          </div>
+          <div class = "views-time">
+            1.3M views &#x2022; 2 days ago
+          </div>
+        </div>
+      </div>
+      <div class = "explorer-video-box">
+        <div class = "explorer-video-thumbnail">
+          <a href="https://www.youtube.com/watch?v=bEIH0jLkBnM&ab_channel=6ix9ine-Topic" target="_blank"><img src="../thumbnails/10.jpg" class = "thumbnail explorer-thumbnail"></a>
+          <div class = "video-timer explorer-video-timer">3:26</div>
+        </div> 
+        <div class = "explorer-video-content">
+          <div class = "video-title explorer-video-title">
+            MALA
+          </div>
+          <div class = "video-channel explorer-video-channel">
+            <a href="https://www.youtube.com/channel/UCF6jRAgCbSanHolKt0Vt6Qw" target="_blank">Tekashi 6ix9ine
+            </a>
+          </div>
+          <div class = "views-time">
+            39M views &#x2022; 4 years ago
+          </div>
+        </div>
+      </div>
+      <div class = "explorer-video-box">
+        <div class = "explorer-video-thumbnail">
+          <a href="https://www.youtube.com/watch?v=KQJNCaDWw0M&ab_channel=Ninja" target="_blank"><img src="../thumbnails/11.jpg" class = "thumbnail explorer-thumbnail"></a>
+          <div class = "video-timer explorer-video-timer">10:22</div>
+        </div> 
+        <div class = "explorer-video-content">
+          <div class = "video-title explorer-video-title">
+            I Hit Fortnite's Highest Rank in 3 Hours !
+          </div>
+          <div class = "video-channel explorer-video-channel">
+            <a href="https://www.youtube.com/@Ninja" target="_blank">Ninja
+            </a>
+          </div>
+          <div class = "views-time">
+            385K views &#x2022; 1 month ago
+          </div>
+        </div>
+      </div>
+            <div class = "explorer-video-box">
+        <div class = "explorer-video-thumbnail">
+          <a href="https://www.youtube.com/watch?v=H2cgCumE72E&ab_channel=ohnepixelraw" target="_blank"><img src="../thumbnails/12.jpg" class = "thumbnail explorer-thumbnail"></a>
+          <div class = "video-timer explorer-video-timer">15:16</div>
+        </div> 
+        <div class = "explorer-video-content">
+          <div class = "video-title explorer-video-title">
+            how CSGO censored skins in china
+          </div>
+          <div class = "video-channel explorer-video-channel">
+            <a href="https://www.youtube.com/@ohnepixelraw" target="_blank">ohnepixel raw</a>
+          </div>
+          <div class = "views-time">
+            239K views &#x2022; 8 months ago
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </body>
+  <script src = "../javascript/page-light.js"></script>
+</html>

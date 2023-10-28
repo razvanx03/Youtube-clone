@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Youtube Copy</title>
+    <link href ="../styles/header.css" rel = "stylesheet">
+    <link href ="../styles/sidebar.css" rel = "stylesheet">
+    <link href ="../styles/general.css" rel = "stylesheet">
+    <link href ="../styles/center.css" rel = "stylesheet">
+    <!-- Roboto font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap" rel="stylesheet">
+  </head>
+
+  <body class = "premium-body">
+    <div class = "header premium-header">
+      <div class = "left">
+        <img src ="../header-icons/hamburger-menu.svg" class = "hamburger-logo">
+        <a href = "https://www.youtube.com/" target="_blank"> <img src ="../thumbnails/white-logo.png" class = "youtube-logo"> </a>
+      </div>
+      <div class = "middle">
+        <input type="text" placeholder="Search" class = "search-bar">
+        <button class = "enter-search p-enter-search">
+          <img src="../header-icons/search.svg" class = "icon">
+          <div class = "tooltip">Search</div>
+        </button>
+        <button class = "voice-search p-enter-voice">
+          <img src="../header-icons/voice-search-icon.svg" class = "icon">
+          <div class = "tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class = "right">
+        <div class ="icon-container">
+          <img src="../header-icons/upload.svg" class = "icon">
+          <div class = "tooltip">Create</div>
+        </div>
+        <div class ="icon-container">
+          <img src="../header-icons/youtube-apps.svg" class = "icon">
+          <div class = "tooltip">Youtube apps</div>
+        </div>
+        <div class ="icon-container">
+          <img src="../header-icons/notifications.svg" class = "icon">
+          <div class = "notifications-count">3</div>
+          <div class = "tooltip">Notifications</div>
+        </div>
+        <div class ="icon-container">
+          <img src="../header-icons/youtube-avatar.png" class = "avatar">
+        </div>
+      </div>
+    </div>
+    <div class = "music-center">
+      <div class = "premium-logo">
+        <a href="https://www.youtube.com/premium" target="_blank"><img src="../thumbnails/premium-logo.png"></a>
+      </div>
+      <div class = "premium-title">
+        <span class = "title-span">This category is only available with YouTube Premium 🔒</span>
+        Buy a YouTube Premium subscription to unlock the contents of this page.
+      </div>
+      <div class = "premium-info">
+        1-month trial &bull; Then RON 26.00/month &bull; Cancel anytime 
+      </div>
+      <div class = "premium-buy-now">
+        <button class = "premium-buy-button" onclick = "openPremium()">Buy now</button>
+      </div>
+    </div>
+  </body>
+  <script src = "../javascript/page-light.js"></script>
+</html>

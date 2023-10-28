@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Youtube Copy</title>
+    <link href ="../styles/header.css" rel = "stylesheet">
+    <link href ="../styles/sidebar.css" rel = "stylesheet">
+    <link href ="../styles/general.css" rel = "stylesheet">
+    <link href ="../styles/center.css" rel = "stylesheet">
+    <!-- Roboto font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class = "header">
+      <div class = "left">
+        <img src ="../header-icons/hamburger-menu.svg" class = "hamburger-logo">
+        <a href = "https://www.youtube.com/" target="_blank"> <img src ="../header-icons/youtube-logo.svg" class = "youtube-logo"> </a>
+      </div>
+      <div class = "middle">
+        <input type="text" placeholder="Search" class = "search-bar">
+        <button class = "enter-search">
+          <img src="../header-icons/search.svg" class = "icon">
+          <div class = "tooltip">Search</div>
+        </button>
+        <button class = "voice-search">
+          <img src="../header-icons/voice-search-icon.svg" class = "icon">
+          <div class = "tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class = "right">
+        <div class ="icon-container">
+          <img src="../header-icons/upload.svg" class = "icon">
+          <div class = "tooltip">Create</div>
+        </div>
+        <div class ="icon-container">
+          <img src="../header-icons/youtube-apps.svg" class = "icon">
+          <div class = "tooltip">Youtube apps</div>
+        </div>
+        <div class ="icon-container">
+          <img src="../header-icons/notifications.svg" class = "icon">
+          <div class = "notifications-count">3</div>
+          <div class = "tooltip">Notifications</div>
+        </div>
+        <div class ="icon-container">
+          <img src="../header-icons/youtube-avatar.png" class = "avatar">
+        </div>
+      </div>
+    </div>
+    <div class = "sidebar">
+      <div>
+        <a href = "../YouTube clone.html">
+          <div class = "side-box">
+            <img src = "../sidebar-icons/home.svg" class = "icon">
+            <div class = "icon-text">Home</div>
+          </div>
+        </a>
+        <a href= "explore.html">
+          <div class = "side-box">
+            <img src = "../sidebar-icons/explore.svg" class = "icon">
+            <div class = "icon-text">Explore</div>
+          </div>
+        </a>
+        <a href= "subscriptions.html">
+          <div class = "side-box">
+            <img src = "../sidebar-icons/subscriptions.svg" class = "icon">
+            <div class = "icon-text">Subscriptions</div>
+          </div>
+        </a>
+        <a href= "originals.html">
+          <div class = "side-box">
+            <img src = "../sidebar-icons/originals.svg" class = "icon">
+            <div class = "icon-text">Originals</div>
+          </div>
+        </a>
+        <a href = "youtube-music.html" target="_blank">
+          <div class = "side-box">
+            <img src = "../sidebar-icons/youtube-music.svg" class = "icon">
+            <div class = "icon-text">YouTube Music</div>
+          </div>
+        </a>
+        <a href = "library.html">
+          <div class = "side-box">
+            <img src = "../sidebar-icons/library.svg" class = "icon">
+            <div class = "icon-text">Library</div>
+          </div>
+        </a>
+      <div>
+        <div class = "light">
+          <div class = "light-block">
+            <input type="radio" id="Lightmode" name="mode">
+            <label id = "light-text" for="html">Lightmode</label>
+          </div>
+          <div class = "light-block">
+            <input type="radio" id="Nightmode" name="mode">
+            <label id = "night-text" for="css">Nightmode</label>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+    <div class = "subscriptions-whitebox">
+      <div class = "whitebox-left">
+        Latest
+      </div>
+      <div class = "whitebox-right">
+        <div class = "whitebox-container whitebox-manage">Manage</div>
+        <div class = "whitebox-container whitebox-gridlist">Grid</div>
+        <div class = "whitebox-container whitebox-gridlist">List</div>
+      </div>
+    </div>
+    <hr> <!--line-->
+    <div class = "subscriptions-center-box">
+      <div class = "video-container">
+        <div class = "thumbnail-container">
+          <a href="https://www.youtube.com/watch?v=irFJ5P_Ua5Y&ab_channel=ohnepixelraw" target="_blank"><img src="../thumbnails/1.jpg" class = "thumbnail"></a>
+          <div class = "video-timer">13:38</div>
+        </div>
+        <div class = "info-box">
+          <div class = "avatar-box">
+            <a href="https://www.youtube.com/@ohnepixelraw" target="_blank"> <img src="../avatars/1.jpg" class = "avatar"> </a>
+          </div>
+          <div class = "video-description">
+            <a href="https://www.youtube.com/watch?v=irFJ5P_Ua5Y&ab_channel=ohnepixelraw" target="_blank"><div class = "video-title">
+              csgo player reacts to what makes valorant better than csgo
+            </div></a>
+            <div class = "video-channel">
+              <a href="https://www.youtube.com/@ohnepixelraw" target="_blank">ohnepixel raw</a>
+            </div>
+            <div class = "views-time">
+              270k views &#x2022; 1 day ago
+            </div>
+          </div>
+        </div>
+      </div>
+	        <div class = "video-container">
+        <div class = "thumbnail-container">
+          <a href="https://www.youtube.com/watch?v=hTfbnC8vS_Y&ab_channel=carwow" target="_blank"><img src="../thumbnails/15.jpg" class = "thumbnail"></a>
+          <div class = "video-timer">24:31</div>
+        </div>
+        <div class = "info-box">
+          <div class = "avatar-box">
+            <a href="https://www.youtube.com/@carwow" target="_blank"> <img src="../avatars/15.jpg" class = "avatar"> </a>
+          </div>
+          <div class = "video-description">
+            <a href="https://www.youtube.com/watch?v=hTfbnC8vS_Y&ab_channel=carwow" target="_blank"><div class = "video-title">
+              BMW M5 Generations DRAG RACE
+            </div></a>
+            <div class = "video-channel">
+              <a href="https://www.youtube.com/@carwow" target="_blank">carwow</a>
+            </div>
+            <div class = "views-time">
+              1.3M views &#x2022; 2 days ago
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class = "video-container">
+        <div class = "thumbnail-container">
+          <a href="https://www.youtube.com/watch?v=ZB3SglwQeI8&ab_channel=Gami" target="_blank"><img src="../thumbnails/16.jpg" class = "thumbnail"></a>
+          <div class = "video-timer">8:04</div>
+        </div>
+        <div class = "info-box">
+          <div class = "avatar-box">
+            <a href="https://www.youtube.com/@gami" target="_blank"> <img src="../avatars/16.jpg" class = "avatar"> </a>
+          </div>
+          <div class = "video-description">
+            <a href="https://www.youtube.com/watch?v=ZB3SglwQeI8&ab_channel=Gami" target="_blank"><div class = "video-title">
+              CUM ARATA O DACIA VECHE DE 50 DE ANI
+            </div></a>
+            <div class = "video-channel">
+              <a href="https://www.youtube.com/@gami" target="_blank">Gami
+              </a>
+            </div>
+            <div class = "views-time">
+              61K views &#x2022; 2 days ago
+            </div>
+          </div>
+        </div>
+      </div>
+	        <div class = "video-container">
+        <div class = "thumbnail-container">
+          <a href="https://www.youtube.com/watch?v=1LniZggOOJ4&ab_channel=HighmanLive" target="_blank"><img src="../thumbnails/5.jpg" class = "thumbnail"></a>
+          <div class = "video-timer">13:58</div>
+        </div>
+        <div class = "info-box">
+          <div class = "avatar-box">
+            <a href="https://www.youtube.com/@HighmanLive" target="_blank"> <img src="../avatars/5.jpg" class = "avatar"> </a>
+          </div>
+          <div class = "video-description">
+            <a href="https://www.youtube.com/watch?v=1LniZggOOJ4&ab_channel=HighmanLive" target="_blank"><div class = "video-title">
+              HIGHMAN ȘI THEO ZECIU LA COMEDY NIGHT 😂
+            </div></a>
+            <div class = "video-channel">
+              <a href="https://www.youtube.com/@HighmanLive" target="_blank">Highman Live</a>
+            </div>
+            <div class = "views-time">
+              17K views &#x2022; 3 days ago
+            </div>
+          </div>
+        </div>
+      </div>
+	        <div class = "video-container">
+        <div class = "thumbnail-container">
+          <a href="https://www.youtube.com/watch?v=vWWet-wdYjs&ab_channel=Rarran" target="_blank"><img src="../thumbnails/3.jpg" class = "thumbnail"></a>
+          <div class = "video-timer">47:58</div>
+        </div>
+        <div class = "info-box">
+          <div class = "avatar-box">
+            <a href="https://www.youtube.com/@Rarran" target="_blank"> <img src="../avatars/3.jpg" class = "avatar"> </a>
+          </div>
+          <div class = "video-description">
+            <a href="https://www.youtube.com/watch?v=vWWet-wdYjs&ab_channel=Rarran" target="_blank"><div class = "video-title">
+              Does Board Space Matter in Hearthstone?
+            </div></a>
+            <div class = "video-channel">
+              <a href="https://www.youtube.com/@Rarran" target="_blank">Rarran
+              </a>
+            </div>
+            <div class = "views-time">
+              55K views &#x2022; 5 days ago
+            </div>
+          </div>
+        </div>
+      </div>
+	        <div class = "video-container">
+        <div class = "thumbnail-container">
+          <a href="https://www.youtube.com/watch?v=g7SH4iSG2gY&ab_channel=DarkViperAU" target="_blank"><img src="../thumbnails/2.jpg" class = "thumbnail"></a>
+          <div class = "video-timer">59:09</div>
+        </div>
+        <div class = "info-box">
+          <div class = "avatar-box">
+            <a href="https://www.youtube.com/@DarkViperAU" target="_blank"> <img src="../avatars/2.jpg" class = "avatar"> </a>
+          </div>
+          <div class = "video-description">
+            <a href="https://www.youtube.com/watch?v=g7SH4iSG2gY&ab_channel=DarkViperAU" target="_blank"><div class = "video-title">
+              I Played GTA 5 For 10000 Hours. These Are The Best and Worst Missions - GTA V Mission Tier List
+            </div></a>
+            <div class = "video-channel">
+              <a href="https://www.youtube.com/@DarkViperAU" target="_blank">DarkViperAU</a>
+            </div>
+            <div class = "views-time">
+              492K views &#x2022; 6 days ago
+            </div>
+          </div>
+        </div>
+      </div>
+	        <div class = "video-container">
+        <div class = "thumbnail-container">
+          <a href="https://www.youtube.com/watch?v=h1HFv9xXuOo&ab_channel=VehicleVirgins" target="_blank"><img src="../thumbnails/6.jpg" class = "thumbnail"></a>
+          <div class = "video-timer">10:29</div>
+        </div>
+        <div class = "info-box">
+          <div class = "avatar-box">
+            <a href="https://www.youtube.com/@VehicleVirgins" target="_blank"> <img src="../avatars/6.jpg" class = "avatar"> </a>
+          </div>
+          <div class = "video-description">
+            <a href="https://www.youtube.com/watch?v=h1HFv9xXuOo&ab_channel=VehicleVirgins" target="_blank"><div class = "video-title">
+              250 MPH Mclaren Speedtail POV Drive Review
+            </div></a>
+            <div class = "video-channel">
+              <a href="https://www.youtube.com/@VehicleVirgins" target="_blank">Vehicle Virgins
+              </a>
+            </div>
+            <div class = "views-time">
+              125K views &#x2022; 2 weeks ago
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class = "video-container">
+        <div class = "thumbnail-container">
+          <a href="https://www.youtube.com/watch?v=KQJNCaDWw0M&ab_channel=Ninja" target="_blank"><img src="../thumbnails/11.jpg" class = "thumbnail"></a>
+          <div class = "video-timer">10:22</div>
+        </div>
+        <div class = "info-box">
+          <div class = "avatar-box">
+            <a href="https://www.youtube.com/@Ninja" target="_blank"> <img src="../avatars/11.jpg" class = "avatar"> </a>
+          </div>
+          <div class = "video-description">
+            <a href="https://www.youtube.com/watch?v=KQJNCaDWw0M&ab_channel=Ninja" target="_blank"><div class = "video-title">
+              I Hit Fortnite's Highest Rank in 3 Hours !
+            </div></a>
+            <div class = "video-channel">
+              <a href="https://www.youtube.com/@Ninja" target="_blank">Ninja
+              </a>
+            </div>
+            <div class = "views-time">
+              385K views &#x2022; 1 month ago
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class = "video-container">
+        <div class = "thumbnail-container">
+          <a href="https://www.youtube.com/watch?v=H2cgCumE72E&ab_channel=ohnepixelraw" target="_blank"><img src="../thumbnails/12.jpg" class = "thumbnail"></a>
+          <div class = "video-timer">15:16</div>
+        </div>
+        <div class = "info-box">
+          <div class = "avatar-box">
+            <a href="https://www.youtube.com/@ohnepixelraw" target="_blank"> <img src="../avatars/12.jpg" class = "avatar"> </a>
+          </div>
+          <div class = "video-description">
+            <a href="https://www.youtube.com/watch?v=H2cgCumE72E&ab_channel=ohnepixelraw" target="_blank"><div class = "video-title">
+              how CSGO censored skins in china
+            </div></a>
+            <div class = "video-channel">
+              <a href="https://www.youtube.com/@ohnepixelraw" target="_blank">ohnepixel raw</a>
+            </div>
+            <div class = "views-time">
+              239K views &#x2022; 8 months ago
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src = "../javascript/page-light.js"></script>
+</html>
